@@ -1,0 +1,28 @@
+body{
+    background-color: #5E239D;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.felix{
+    background-color: rgb(4, 48, 61);
+    width: 78%;
+    margin: 0 auto;
+}
+
+h1.title{
+    text-transform: uppercase;
+    color: red;
+    text-align: left;
+    font-weight: 700;
+    font-size: 47px;
+    padding: 21px;
+}
+h1.title:hover{
+    text-decoration: overline;
+    color: aquamarine;
+    font-weight: 800;
+    transition: 1.5s ease-in-out;
+}
+
