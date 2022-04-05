@@ -21,8 +21,45 @@ h1.title{
 }
 h1.title:hover{
     text-decoration: overline;
-    color: aquamarine;
+    color: rgb(65, 155, 125);
     font-weight: 800;
-    transition: 1.5s ease-in-out;
+    transition: .2s ease-in-out;
 }
+/* Navigation bar styles */
 
+
+.navbar{
+    background-color: burlywood;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: larger;
+
+
+}
+.navbar ul li{
+    list-style-type: none;
+    float: left;
+    padding: 10px 25px 10px 25px;
+    border-right:  7px solid #5E239D;
+
+}
+.navbar ul li a{
+    text-decoration:none;
+    color: blue;
+    text-transform: lowercase;
+    font-size: 26px;
+    font-weight: 600;
+
+}
+.navbar ul li:hover a {
+    background-color:chocolate;
+    text-decoration: underline;
+    text-align: center;
+    margin: auto;
+    transition: .7s ease-in-out;
+    
+
+
+}
+ 
